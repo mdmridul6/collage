@@ -5,9 +5,9 @@
         <div class="header-top bg-dark p-2 d-flex justify-content-end">
             @if (app()->getlocale() == "bn")
 
-            <a href="{{route('lenguageChange',['locale'=>"en"])}}" class="text-light">English</a>
+            <a href="{{route('lenguageChange',['locale'=>"en"])}}" class="text-light">En</a>
             @else
-            <a href="{{route('lenguageChange',['locale'=> "bn"])}}" class="text-light">Bangla</a>
+            <a href="{{route('lenguageChange',['locale'=> "bn"])}}" class="text-light">Ba</a>
             @endif
         </div>
         <!-- /end header-top -->
